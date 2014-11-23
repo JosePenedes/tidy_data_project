@@ -23,9 +23,12 @@ feature_names <- read.table("features.txt",sep="",header=FALSE)
 
 9. Generation of Data Table "tidy_data". In this table, all the feture measurements are averaged by subject and by activity
 
+========================================================
 
-CODEBOOK  for tify data is:
 
+CODEBOOK  for tidy data is:
+
+========================================================
 
 - Activity: the activity performed by a subject when the measuremens is obtained, activities are: WALKING, WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING 
 - Subject: the subject performing this activity (the subject is indicated by its ID - an integer)
